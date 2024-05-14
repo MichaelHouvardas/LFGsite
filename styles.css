@@ -62,9 +62,33 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 30%;
+    margin-bottom: 10px;
 }
 
+.banner .chatbox{
+    padding: 0;
+    margin: 0;
+    color: white;
+    position: relative;
+    border-radius: 10em;
+    top: 100px;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 100px;
+}
+
+.banner .chatbox p{
+    position: relative;
+    top: 22px;
+    left: 30px;
+    text-decoration: none;
+    color: white;
+}
 /*
 .container{
     width: 100%;
