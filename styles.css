@@ -5,6 +5,7 @@ body{
 
 
 .navbar{
+    position: fixed;
     width: 100%;
     height: 40px;
     background-color: rgb(175, 175, 175);
@@ -28,14 +29,18 @@ body{
 
 /*banner*/
 
+
+
 .banner{
     height: 800px;
     background-color: blue;
-    /*background-image: url("images/Screenshot 2024-05-14 at 7.35.42 AM.png");*/
+    background-image: url("istockphoto-1432965103-640_adpp_is.mp4");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
 }
+
+
 
 .banner h1{
     padding: 0;
@@ -88,6 +93,16 @@ body{
     left: 30px;
     text-decoration: none;
     color: white;
+}
+
+/*https://www.w3schools.com/howto/howto_css_fullscreen_video.asp*/
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 40px;
+    min-width: 100%;
+    min-height: 100%;
 }
 /*
 .container{
